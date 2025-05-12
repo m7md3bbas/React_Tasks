@@ -1,0 +1,20 @@
+.counterClass{
+    border: 2px solid cadetblue;
+    background-color: cadetblue;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+}
+.customButton{
+    margin: 10px;
+    padding: 10px;
+    background-color: burlywood;
+    border: none;
+    color: white;
+}
+.customH1{
+    color: burlywood;
+}
+.customH3{
+    color: burlywood;
+}
