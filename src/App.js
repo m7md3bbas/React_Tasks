@@ -1,13 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
-import CounterClass from './components/counterClass';
-import CounterFun from './components/counterFun';
 
+import './App.css';
+import TodoApp from './components/TodoApp/main';
 function App() {
   return (
     <div className="App">
-      <CounterClass counter={0} name="Class Counter" />
-      <CounterFun counter={0} name="Function Counter" />
+      <TodoApp />
     </div>
   );
 }
