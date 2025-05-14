@@ -17,9 +17,8 @@ const TodoApp = () => {
         }
     }
     const toggleToDo = (index) => {
-        const newTodos = todos.map((todo, i) =>
-            i === index ? { ...todo, completed: !todo.completed } : todo
-        );
+        const newTodos = [...todos];
+        newTodos[index].completed = !newTodos[index].completed;
         setTodos(newTodos);
     }
 
