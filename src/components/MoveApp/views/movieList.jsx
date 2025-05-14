@@ -26,7 +26,7 @@ const MovieList = () => {
 
 
     return (
-        <div className="row">
+        <div className="container">
             <div className="bg-danger text-center">
                 <h2 className="text-white">MoveList</h2>
             </div>
